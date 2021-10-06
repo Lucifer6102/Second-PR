@@ -10,6 +10,8 @@ that sum up to value (x – current node’s data).
 Add this count to the total_count of triplets. 
 Pointer to the last node can be found only once in the beginning.
 
+By Rishabh Gupta
+
 */
 
 int countPairs(struct Node* first, struct Node* second, int value) 
