@@ -32,8 +32,6 @@ Food.penup()
 Food.goto(0,100)
 
 
-segments = []
-
 
 #pen
 pen = turtle.Turtle()
