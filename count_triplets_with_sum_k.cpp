@@ -17,10 +17,6 @@ By Rishabh Gupta
 int countPairs(struct Node* first, struct Node* second, int value) 
 { 
     int count = 0; 
-  
-    // The loop terminates when either of two pointers 
-    // become NULL, or they cross each other (second->next 
-    // == first), or they become same (first == second) 
     while (first != NULL && second != NULL &&  
            first != second && second->next != first) { 
   
